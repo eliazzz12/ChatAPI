@@ -1,8 +1,8 @@
-package com.dam.elias.chat.connection;
+package com.dam.elias.chat.api.connection;
 
 import com.dam.elias.chat.api.model.Message;
 import com.dam.elias.chat.api.model.User;
-import com.dam.elias.chat.server.exceptions.HandlerNotFoundException;
+import com.dam.elias.chat.api.connection.exceptions.HandlerNotFoundException;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

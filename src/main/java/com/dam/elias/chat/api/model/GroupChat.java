@@ -1,4 +1,4 @@
-package com.dam.elias.chat;
+package com.dam.elias.chat.api.model;
 
 import java.util.List;
 

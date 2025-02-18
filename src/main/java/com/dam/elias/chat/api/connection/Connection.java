@@ -1,6 +1,4 @@
-package com.dam.elias.chat.connection;
-
-import javafx.application.Application;
+package com.dam.elias.chat.api.connection;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -19,8 +17,7 @@ public class Connection {
     protected ObjectInputStream in;
     private boolean connected = false;
 
-    public Connection(Application.Parameters params) {
-        List<String> parameterList = params.getRaw();
+    public Connection(List<String> parameterList) {
         Iterator<String> iterator = parameterList.iterator();
         while (iterator.hasNext()) {
             String parameter = iterator.next();

@@ -1,4 +1,4 @@
-package com.dam.elias.chat.connection;
+package com.dam.elias.chat.api.connection;
 
 import com.dam.elias.chat.api.model.Message;
 import com.dam.elias.chat.api.model.User;
